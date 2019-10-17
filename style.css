@@ -1,0 +1,48 @@
+body, html {
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+}
+
+.flex_container {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	height: 700px;
+	width: 1440px;
+}
+
+.list_container {
+	width: 300px;
+	text-align: center;
+}
+
+ul {
+	width: 300px;
+	padding-left: 0px;
+	list-style: none;
+	text-align: center;
+}
+
+li {
+	width: 273px;
+	padding-right: 27px;
+	text-align: center;
+}
+
+button {
+	width: 70.67px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 13px;
+}
+
+input {
+	text-align: center;
+	font-size: 13px;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+
