@@ -8,8 +8,6 @@ body, html {
 	flex-direction: column;
 	align-content: center;
 	align-items: center;
-	height: 700px;
-	width: 1440px;
 }
 
 .list_container {
