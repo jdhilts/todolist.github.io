@@ -11,8 +11,12 @@ body, html {
 }
 
 .list_container {
-	width: 300px;
+	width: 800px;
 	text-align: center;
+}
+
+p {
+	font-size: 7.5rem;
 }
 
 ul {

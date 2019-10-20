@@ -59,12 +59,12 @@ function done(){
 }
 
 function createListName(){
-	var oldH1 = document.querySelector("h1");
+	var oldP = document.querySelector("p");
 	var h2 = document.querySelector("h2");
-	var h1 = document.createElement("h1");
-	h1.appendChild(document.createTextNode(nameInput.value));
-	listContainerDiv.replaceChild(h1, oldH1);
-	listContainerDiv.insertBefore(h1, h2);
+	var p = document.createElement("p");
+	p.appendChild(document.createTextNode(nameInput.value));
+	listContainerDiv.replaceChild(p, oldP);
+	listContainerDiv.insertBefore(p, h2);
 	nameInput.value = "";
 }
 
