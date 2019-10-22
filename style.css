@@ -44,8 +44,12 @@ button {
 input {
 	width: 400px;
 	height: 70px;
+	margin-bottom: 37.5px;
 	text-align: center;
 	font-size: 13px;
+	border-radius: 10px;
+	border-color: black;
+	border-width: 5px;
 }
 
 .done {
