@@ -26,11 +26,12 @@ ul {
 	padding-left: 0px;
 	list-style: none;
 	text-align: center;
+	margin: 0px;
 }
 
 li {
-	width: 273px;
-	padding-right: 27px;
+	width: 800px;
+	padding-right: 26px;
 	text-align: center;
 }
 
