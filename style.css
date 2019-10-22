@@ -17,10 +17,8 @@ body, html {
 
 p {
 	font-size: 150px;
-}
-
-input [id="list_name"] {
-	size:35;
+	margin-top: 75px;
+	margin-bottom: 75px;
 }
 
 ul {
@@ -43,6 +41,8 @@ button {
 }
 
 input {
+	width: 400px;
+	height: 70px;
 	text-align: center;
 	font-size: 13px;
 }
