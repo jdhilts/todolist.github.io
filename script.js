@@ -68,8 +68,6 @@ function createListName(){
 	nameInput.value = "";
 }
 
-
-
 function changeListNameOnClick(){
 	if(listNameInputLength() > 0){
 		createListName();

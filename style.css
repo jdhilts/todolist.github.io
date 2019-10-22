@@ -19,6 +19,10 @@ p {
 	font-size: 150px;
 }
 
+input [id="list_name"] {
+	size:35;
+}
+
 ul {
 	width: 300px;
 	padding-left: 0px;
