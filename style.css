@@ -1,6 +1,5 @@
 body, html {
 	font-family: 'Amatic SC', cursive;
-	font-size: 20px;
 }
 
 .flex_container {
@@ -33,6 +32,8 @@ li {
 	width: 800px;
 	padding-right: 26px;
 	text-align: center;
+	font-size: 4em;
+	word-wrap: break-word;
 }
 
 button {
@@ -40,17 +41,22 @@ button {
 	height: 70px;
 	border-radius: 10px;
 	font-family: 'Amatic SC', cursive;
-	font-size: 26px;
+	font-size: 52px;
+	margin-bottom: 37.5px;
+}
+
+.delete {
+	margin-left: 100px;
 }
 
 input {
-	width: 400px;
+	width: 600px;
 	height: 70px;
 	margin-bottom: 37.5px;
 	margin-right: 20px;
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
-	font-size: 26px;
+	font-size: 4em;
 	border-radius: 10px;
 	border-color: black;
 	border-width: 5px;
