@@ -41,8 +41,8 @@ button {
 	height: 70px;
 	border-radius: 10px;
 	font-family: 'Amatic SC', cursive;
-	font-size: 52px;
-	margin-bottom: 37.5px;
+	font-size: 3em;
+	margin-bottom: 40px;
 }
 
 .delete {
@@ -56,7 +56,7 @@ input {
 	margin-right: 20px;
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
-	font-size: 4em;
+	font-size: 3em;
 	border-radius: 10px;
 	border-color: black;
 	border-width: 5px;
