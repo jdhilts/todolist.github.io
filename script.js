@@ -27,7 +27,7 @@ function addItem(){
 	var li = document.createElement("li");
 	var deleteBtn = document.createElement("button");
 	deleteBtn.appendChild(document.createTextNode("DELETE"));
-	deleteBtn.classList.add("btn btn-secondary btn-lg");
+	deleteBtn.classList.add("delete");
 	deleteBtn.addEventListener("click", removeItem);
 	li.appendChild(document.createTextNode(input.value + " "));
 	li.addEventListener("click", done);
@@ -49,7 +49,7 @@ function addItemOnKeyPress(event){
 }
 
 function removeItem(){
-	var item = document.getElementsByClassName("btn btn-secondary btn-lg");
+	var item = document.getElementsByClassName("delete");
 	this.parentNode.remove(item);
 }
 
