@@ -36,14 +36,14 @@ li {
 	word-wrap: break-word;
 }
 
-button {
+/*button {
 	width: 140.34px;
 	height: 70px;
 	border-radius: 10px;
 	font-family: 'Amatic SC', cursive;
 	font-size: 3em;
 	margin-bottom: 40px;
-}
+}*/
 
 .delete {
 	margin-left: 100px;
