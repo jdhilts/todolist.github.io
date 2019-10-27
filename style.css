@@ -38,10 +38,12 @@ li {
 
 button {
 	width: 140.34px;
-	height: 70px;	
+	height: 80px;	
 	font-family: 'Amatic SC', cursive;
-	margin-bottom: 37.5px;
 	font-size: 40px;
+	padding: 0px;
+	align-items: center;
+	align-content: center;
 }
 
 .delete {
@@ -49,16 +51,18 @@ button {
 	border-radius: 10px;
 	font-family: 'Amatic SC', cursive;
 	font-size: 40px;
+	padding: 0px;
 }
 
 input {
 	width: 600px;
-	height: 70px;
+	height: 80px;
+	padding:0px;
 	margin-bottom: 37.5px;
 	margin-right: 20px;
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
-	font-size: 3em;
+	font-size: 30px;
 	border-radius: 10px;
 	border-color: black;
 	border-width: 5px;
